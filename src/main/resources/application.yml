@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: fx-killer
+    
+---
+spring:
+  profiles: local
+  
+server:
+  port: 60123
